@@ -1,1 +1,2 @@
-# PDF_tools
+# Prerequisite
+* pyPdf
