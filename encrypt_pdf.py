@@ -11,7 +11,7 @@ input_file = sys.argv[1]
 output_file = sys.argv[2]
 password = sys.argv[3]
     
-with open(input_file) as pdf:
+with open(input_file, "rb") as pdf:
     reader = PdfFileReader(pdf)
     if reader.isEncrypted:
         reader.decrypt('')
